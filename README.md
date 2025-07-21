@@ -16,22 +16,18 @@ A dynamic JSON editor built with React that allows users to create and edit nest
 - Bootstrap
 
 #How It Works
-
 -Component Structure
 --App: Root component with layout
 --AddItem: Manages the list of fields
 --FieldRow: Recursive component for each field (supports nesting)
-
 -Key Logic:
 --Uses useState to track form state
 --Recursive rendering for nested fields
 --Dynamic JSON generation on every change
-
 -Example Usage:
 --Click "Add Field" to create new entries
 --Select field type (String/Number/Boolean/Nested)
 --For nested fields, click "Add Nested Field"
-
 -JSON updates automatically:
 
 json
